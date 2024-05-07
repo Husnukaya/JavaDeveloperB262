@@ -5,11 +5,11 @@ public class Variables01 {  // opening class body
     public static void main(String[] args) {
 
         // Data type     nameOfVariable  Assignment Operator   value   ;
-        int           age              =                    25    ;
+           int                 age              =                25    ;
 
         // Example 1: Create a variable whose value is 12.99
         double priceOfShirt = 12.99;
-        float num = 12.99F;
+        float num           = 12.99F;
 
         //       DATA TYPES
 
@@ -98,7 +98,7 @@ public class Variables01 {  // opening class body
                    The default value of String is null
 
            What is the difference between PRIMITIVE and NON-PRIMITIVE DATA TYPES?
-           1)  Primitive data types have 'values' ONLY. Non-Primitive data types have values AS WELL AS methods.
+           1) Primitive data types have 'values' ONLY. Non-Primitive data types have values AS WELL AS methods.
            2) Primitive data types are created by Java. We cannot create them. Non-Primitive data types can be created by us.
            3) Primitive data types use lowercase in their names whereas Non-Primitive data types use UPPERCASE in their names
            4) Memory usage in Primitive data types changes from data type to data type. But Non-Primitive data types use same amount
@@ -122,6 +122,16 @@ public class Variables01 {  // opening class body
         // NOTE: If you use different data types in math operation, the largest data type will be returned for the result
 
         // Example 3: Create 2 float variables, 3 short variables and 2 double variables and then print their sum
+
+        float item1=13.45F;
+        float item2=15.45F;
+        short age1=12;
+        short age2=15;
+        short age3=20;
+        double priceOfShoes=55.99;
+        double priceOfTshirt=60.55;
+
+        System.out.println(item1+item2+age1+age2+age3+priceOfShoes+priceOfTshirt);
 
 
 
