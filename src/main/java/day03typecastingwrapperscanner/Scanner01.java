@@ -35,9 +35,22 @@ public class Scanner01 {
 
         String name = input.next();
 
-        System.out.println("name = " + name);
+        System.out.println("Hello "+name+" Welcome to Our Website");
 
         // HW TASK:  Ask user to provide their age and address, store and print it on the console
+
+        System.out.println("Please enter your age..........");
+        byte age=input.nextByte();
+        System.out.println("Your age:"+age);
+
+        input.nextLine();
+
+        System.out.println("Please enter your address");
+        String address= input.nextLine();
+        System.out.println("Your address is: "+address);
+
+
+
 
 
     }

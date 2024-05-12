@@ -15,6 +15,18 @@ public class Variables {
 
         System.out.println(a+b+populationOfUK+item1);
 
+        String str="Hello World!";
+        int c=10;
+        int d=20;
+
+        System.out.println(str+c+d);//Hello World!1020
+        System.out.println(str+(c+d));//Hello World!30
+        System.out.println(c+str+d);//10Hello World!20
+        System.out.println(c+d+str);//30Hello World!
+
+        char initial='A';
+
+        System.out.println(initial+c+d);//95
 
     }
 }

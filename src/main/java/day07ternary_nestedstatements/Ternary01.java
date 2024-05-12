@@ -8,7 +8,7 @@ public class Ternary01 {
 
         /*
         Ternary does the same as if-else statements => conditional statements
-        BUt Ternary has simpler syntax
+        But Ternary has simpler syntax
 
         condition ? part-for-true  : part-for false
 
