@@ -1,4 +1,4 @@
-package javapractice;
+package javapractice.practice01;
 
 public class Q05_SwapNumbers {
     public static void main(String[] args) {
